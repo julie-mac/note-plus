@@ -19,7 +19,9 @@
 
   ## Usage
   
-  To use the deployed application, [click here](https://julie-mac.github.io/my-portfolio/). Once on the page, click "Get started" on the main page. There you will see the notes already in the system, and a plus icon to enter a new one. When you click the icon, you can enter a title for your new note and some text for more details. A save icon will appear, which you can click in order to save your new note.
+  To use the deployed application, [click here](https://note-plus.herokuapp.com/). Once on the page, click "Get started" on the main page. There you will see the notes already in the system, and a plus icon to enter a new one. When you click the icon, you can enter a title for your new note and some text for more details. A save icon will appear, which you can click in order to save your new note.
+
+  ![Screenshot of Note PLUS](./public/assets/screenshot.png)
 
   ## License
     This project is licensed under the MIT License.
