@@ -35,12 +35,12 @@ app.post('/api/notes', (req, res) => {
             text,
             id: uniqid()
         }
-        fs.readFile('./Develop/db/db.json', 'utf8', function(error, data) {
+        fs.readFile('./db/db.json', 'utf8', function(error, data) {
             const parsedData = JSON.parse(data);
             parsedData.push(newNote);
             const jsonData = JSON.stringify(parsedData);
 
-            fs.writeFile('./db/db.json', (jsonData, null, 2), (err) => {
+            fs.writeFile('./db/db.json', (jsonData), (err) => {
                 err
                     ? console.error(err)
                     : console.log(`Your note has been added successfully.`)
